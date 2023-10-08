@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -24,6 +25,10 @@ public class MainActivity extends AppCompatActivity {
             counter--;
             TextView counterTextView = findViewById(R.id.textview_counter);
             counterTextView.setText(""+counter);
+            if (counter ==0)
+            {
+                ImageView eggImageView = findViewById(R.id.imageview_egg);
+            }
         }
     }
 
