@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
             if (counter ==0)
             {
                 ImageView eggImageView = findViewById(R.id.imageview_egg);
+                eggImageView.setImageResource(R.drawable.surprise_egg);
             }
         }
     }
