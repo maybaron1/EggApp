@@ -34,6 +34,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
         android:text="TextView"
+        android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="569dp" />
