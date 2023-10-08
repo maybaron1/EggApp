@@ -3,6 +3,7 @@ package com.example.eggapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -17,4 +18,15 @@ public class MainActivity extends AppCompatActivity {
         counterTextView.setText(""+counter);
     }
 
+    public void knock(View view) {
+        if (counter > 10)
+        {
+            counter--;
+            TextView counterTextView = findViewById(R.id.textview_counter);
+            counterTextView.setText(""+counter);
+        }
+    }
+
+    public void reset(View view) {
+    }
 }
